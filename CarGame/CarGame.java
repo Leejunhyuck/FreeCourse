@@ -50,7 +50,7 @@ class CarGame {
         }
     }
 
-    public void printResult(){
+    public void printResult() {
         StringBuilder str = new StringBuilder();
         Arrays.sort(cars);
         str.append(cars[0].getName());
@@ -65,6 +65,5 @@ class CarGame {
         System.out.println(str);
 
     }
-
 
 }
